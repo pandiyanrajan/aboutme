@@ -1,0 +1,10 @@
+.degree
+{
+	font-size: 2;
+}
+
+.slider-img {
+  width: 200px;
+  height: 400px;
+  object-fit: cover;
+}
