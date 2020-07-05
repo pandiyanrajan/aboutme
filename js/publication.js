@@ -84,7 +84,7 @@ var publicationContent = {
 	}]
 };
 var journalContent = {
-	"title"  : "Journals Research Publications ",
+	"title"  : "Journals - Research Publications ",
 	"content" : [{
 		"national_international" : "International",
 		"title_of_the_paper" : "Mechanical and Metallurgical Characterization Of Friction Stir Welded AA6061- ZRO2-C Hybrid MMCs",

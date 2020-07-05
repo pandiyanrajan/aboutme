@@ -13,6 +13,6 @@ $(".navClick").click(function(){
   	}
 });
 $( document ).ready(function() {
-    console.log( "ready!" );
+    $('[data-toggle="tooltip"]').tooltip()
     $("#root").load( "template/home.html" );  
 });

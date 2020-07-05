@@ -8,3 +8,42 @@
   height: 400px;
   object-fit: cover;
 }
+
+
+@keyframes shadow-pulse
+{
+  0% {
+    box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.2);
+  }
+  100% {
+    box-shadow: 0 0 0 35px rgba(0, 0, 0, 0);
+  }
+}
+
+.floating-button {
+	position: fixed;
+	bottom: 5%;
+	right: 3%;
+  animation: shadow-pulse 1s infinite;
+}
+
+.material-icons.floating-button-icon 
+{
+	font-size: 18px;
+	line-height: 28px;
+}
+
+.nav-background {
+	/*background: linear-gradient(to right, #ee5ea4 0%, #9c1ab2 100%);*/
+	background: linear-gradient(to right, #f8c534 0%, #ef614b 100%);
+}
+
+.nav-item.nav-link.active 
+{
+	background: linear-gradient(to right, #f8c534 0%, #ef614b 100%);
+}
+
+.nav-item.nav-link
+{
+	color: black;
+}
