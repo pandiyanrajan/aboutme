@@ -179,7 +179,7 @@ function loadJornal()
 
 	html += '<br>';
 	html += '<h5 align="center">' + journalContent.title + '</h5>';
-	html += "<hr>";
+	html += "<hr class='col-4'>";
 	html += '<div class="mx-4">';
 	html += '<div id="publicationCard" class="row row-cols-1 row-cols-md-2">';
 	
@@ -210,7 +210,7 @@ function loadConference()
 
 	 html += '<br>';
 	html += '<h5 align="center">' + publicationContent.title + '</h5>';
-	html += "<hr>";
+	html += "<hr class='col-4'>";
 	html += '<div class="mx-4">';
 	html += '<div id="publicationCard" class="row row-cols-1 row-cols-md-2">';
 	
@@ -242,7 +242,7 @@ function loadPublished()
 
 	html += '<br>';
 	html += '<h5 align="center">' + publishedContent.title + '</h5>';
-	html += "<hr>";
+	html += "<hr class='col-4'>";
 	html += '<div class="mx-4">';
 	html += '<div id="publicationCard" class="row row-cols-1 row-cols-md-3">';
 	
