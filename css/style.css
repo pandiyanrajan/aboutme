@@ -25,6 +25,7 @@
 	bottom: 5%;
 	right: 3%;
   animation: shadow-pulse 1s infinite;
+  z-index: 10;
 }
 
 .material-icons.floating-button-icon 
@@ -46,4 +47,9 @@
 .nav-item.nav-link
 {
 	color: black;
+}
+
+.slide-text
+{
+	text-shadow: 2px 2px rgba(0, 0, 0, 0.3);
 }
